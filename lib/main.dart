@@ -23,7 +23,13 @@ class _HomePageState extends State<HomePage> {
         title: const Text("Flutter App"),
         centerTitle: true,
       ),
-      body: Container(),
+      body: Container(
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [],
+        ),
+      ),
     );
   }
 }
